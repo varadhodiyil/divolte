@@ -25,7 +25,7 @@ SECRET_KEY = '(22g*o_0xzu_u4a69hl_uacoho%&xqgetbgg3frmyayv&!19_#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -76,7 +76,7 @@ STATICFILES_DIRS = (
     STATIC_DIR,
 )
 
-
+print STATIC_DIR
 STATIC_ROOT = os.path.join(BASE_DIR, "static", "clickstream")
 STATIC_URL = '/static/'
 WSGI_APPLICATION = 'clickstream.wsgi.application'

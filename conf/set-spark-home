@@ -1,0 +1,3 @@
+export SPARK_HOME=/home/madhan/spark-2.0.2-bin-hadoop2.7
+export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib:$PYTHONPATH
+export PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.3-src.zip:$PYTHONPATH

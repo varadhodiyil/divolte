@@ -18,5 +18,7 @@ from clickstream.core import views
 #from django.contrib import admin
 
 urlpatterns = [
-    url(r'^$', views.dashboard)
+    url(r'^$', views.dashboard),
+    url(r'^results/', views.results),
+    url(r'^getData/', views.results_data)
 ]

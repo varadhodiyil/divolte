@@ -8,7 +8,7 @@ import os
 
 
 path=os.path.dirname(os.path.abspath(__file__))
-ouptput_file=path+"/out_count.json"
+ouptput_file=path+"/data.json"
 def main(hdfs_uri):
     """Divolte Spark Example.
 

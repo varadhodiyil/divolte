@@ -1,3 +1,1 @@
-DIVOLTE_SPARK_JAR=/home/madhan/divolte-spark/target/scala-2.10/divolte-spark-assembly-0.2-SNAPSHOT.jar
-
 spark-submit --jars $DIVOLTE_SPARK_JAR --driver-class-path $DIVOLTE_SPARK_JAR /home/madhan/divolte/pyspark-impl/count_max.py /home/madhan/20161222175847-divolte-tracking-dobby-2.avro 
